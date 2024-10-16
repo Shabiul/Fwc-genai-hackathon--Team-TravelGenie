@@ -96,20 +96,6 @@ npm run build
 
 This command optimizes the project for deployment.
 
-### Troubleshooting
-
-If you encounter any issues while running the project, here are a few common fixes:
-
-- **Outdated Dependencies:** If `npm install` fails, try deleting the `node_modules` folder and `package-lock.json` file and run `npm install` again.
-  
-- **Port Conflicts:** If you encounter a port conflict when running the development server, you can specify a different port by running:
-
-  ```bash
-  npm run dev -- -p 3001
-  ```
-
-  This will run the server on port 3001 instead of the default 3000.
-
 ### Contribution
 
 If you'd like to contribute to this project, please follow the [contribution guidelines](#contribution) in the repository.
@@ -117,9 +103,3 @@ If you'd like to contribute to this project, please follow the [contribution gui
 ### Contact
 
 If you have any questions or need further assistance, feel free to reach out to the team.
-
----
-
-You can add this documentation under a new section in your `README.md` file titled **"How to Run Locally"** or **"End-to-End Documentation"** so that anyone visiting your repository can easily follow the steps.
-
-Let me know if you need any additional sections or clarifications!
